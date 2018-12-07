@@ -3,7 +3,7 @@ var $j = jQuery.noConflict();
 
 $j(function(){
 	// Pour le menu sur mobiles
-	$j('#nav li.menu-item-has-children').doubleTapToGo();
+	//$j('#nav li.menu-item-has-children').doubleTapToGo();
 	$j('#menu-toggle').click(function() {
 		$j('#site-navigation ul.nav-menu').slideToggle('fast');
 	});

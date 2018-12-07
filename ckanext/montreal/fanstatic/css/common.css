@@ -24,6 +24,23 @@ a {
     text-decoration: none;
 }
 
+h2 {
+	font-size:21px;
+}
+h3 {
+	font-size:18px;
+}
+h4 {
+	font-size:14px;
+}
+
+ul {
+	padding: 0;
+  margin: 0 0 10px 25px;
+	list-style: disc;
+}
+
+
 /*
 Beta
 */
@@ -119,6 +136,8 @@ div#icosrsxsocio ul li#icorss a {
 div#icosrsxsocio ul li#icoinfolettre a {
     background: url("/images/icones-rsx-socio-infolettre.png") no-repeat scroll 0 0 transparent;
 }
+
+
 /*
 Header
 */
@@ -667,4 +686,8 @@ article.post-password-required input[type="submit"]:hover,
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#bloc-principal h2 {
+	font-size:14px;
 }
