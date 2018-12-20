@@ -25,18 +25,18 @@ a {
 }
 
 h2 {
-	font-size:21px;
+	font-size:21px !important;
 }
 h3 {
-	font-size:18px;
+	font-size:18px !important;
 }
 h4 {
-	font-size:14px;
+	font-size:14px !important;
 }
 
-ul {
+#territoires ul {
 	padding: 0;
-  margin: 0 0 10px 25px;
+    margin: 0 0 10px 25px;
 	list-style: disc;
 }
 
