@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+.module-content h1 {
+	font-size: 23px !important;
+}
+
 .module-content h2 {
 	font-size:21px !important;
 }
