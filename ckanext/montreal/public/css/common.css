@@ -40,10 +40,14 @@ a {
 	font-size:14px !important;
 }
 
-#territoires ul {
-	padding: 0;
+.resources ul {
+    margin: 0;
+    list-style: none;
+}
+.module-content ul {
+    padding: 0;
     margin: 0 0 10px 25px;
-	list-style: disc;
+    list-style: disc;
 }
 
 
