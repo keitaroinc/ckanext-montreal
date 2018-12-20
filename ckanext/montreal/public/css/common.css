@@ -24,13 +24,15 @@ a {
     text-decoration: none;
 }
 
-h2 {
+.module-content h2 {
 	font-size:21px !important;
 }
-h3 {
+
+.module-content h3 {
 	font-size:18px !important;
 }
-h4 {
+
+.module-content h4 {
 	font-size:14px !important;
 }
 
