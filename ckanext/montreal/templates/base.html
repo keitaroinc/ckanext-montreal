@@ -20,10 +20,12 @@ Code JS pour menu
 {%- endblock -%}
 
 {% block styles %}
-	{% resource 'montreal/common.css' %}
-	{% resource 'montreal/ckan.css' %}
-	{% resource 'montreal/bootstrap.css' %}
-	{% resource 'montreal/style.css' %}
-	{% resource 'montreal/accueil.css' %}
 	{{ super() }}
+
+	<link rel="stylesheet" href="montreal/common.css" />
+	<link rel="stylesheet" href="montreal/bootstrap.css" />
+	<link rel="stylesheet" href="montreal/ckan.css" />
+	<link rel="stylesheet" href="montreal/style.css" />
+	<link rel="stylesheet" href="montreal/accueil.css" />
+
 {% endblock %}
