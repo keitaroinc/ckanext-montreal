@@ -45,12 +45,11 @@ a {
     list-style: none;
 }
 
-.prose .notes ul {
-	padding: 0;
-    margin: 0 0 10px 25px;
-	list-style: disc;	
+.notes ul {
+   padding: 0;
+   margin: 0 0 10px 25px;
+   list-style: disc;
 }
-
 
 
 /*
