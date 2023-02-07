@@ -40,3 +40,7 @@ msgid "{number} dataset found"
 msgid_plural "{number} datasets found"
 msgstr[0] "{number} Résultat"
 msgstr[1] "{number} Résultats"
+
+#: ckan/templates/snippets/facet_list.html:85
+msgid "Show More {facet_type}"
+msgstr "Afficher plus de {facet_type}"

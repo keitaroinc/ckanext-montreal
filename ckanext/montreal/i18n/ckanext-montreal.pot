@@ -498,3 +498,6 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
+#: ckan/templates/snippets/facet_list.html:85
+msgid "Show More {facet_type}"
+msgstr "Afficher plus de {facet_type}"
