@@ -46,6 +46,7 @@ def contact_form():
                 'errors': errors,
                 'error_summary': error_summary}
         return toolkit.render('contact/form.html', extra_vars=vars)
+    
 
 
 def _submit():
@@ -113,6 +114,10 @@ def _submit():
 montreal.add_url_rule('/abonnement', view_func=newsletter)
 
 montreal.add_url_rule('/nous-joindre',
+                      view_func=contact_form,
+                      methods=[u'GET', u'POST'])
+
+montreal.add_url_rule('/contact-us',
                       view_func=contact_form,
                       methods=[u'GET', u'POST'])
 
